@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManageCourseController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="701.0" style="-fx-background-color: #FFEFD6;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="255.0" layoutY="15.0" prefHeight="65.0" prefWidth="208.0" text="Select">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="23.0" layoutY="19.0" mnemonicParsing="false" onAction="#Back" prefHeight="56.0" prefWidth="80.0" style="-fx-background-radius: 100; -fx-background-color: #0E5E6F;" text="Back" textFill="#f8f4f4" />
+            <Button fx:id="AttendanceBtn" layoutX="147.0" layoutY="145.0" mnemonicParsing="false" onAction="#Attendance" prefHeight="55.0" prefWidth="117.0" style="-fx-background-radius: 100; -fx-background-color: #0E5E6F;" text="Attendance" textFill="#f5efef" />
+            <Button fx:id="MarksBtn" layoutX="338.0" layoutY="145.0" mnemonicParsing="false" onAction="#Marks" prefHeight="55.0" prefWidth="117.0" style="-fx-background-radius: 100; -fx-background-color: #0E5E6F;" text="Marks" textFill="#f5efef" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
